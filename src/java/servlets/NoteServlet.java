@@ -42,6 +42,7 @@ public class NoteServlet extends HttpServlet {
         }
 
         getServletContext().getRequestDispatcher("/WEB-INF/notes.jsp").forward(request, response);
+        return;
     }
 
     @Override
@@ -85,6 +86,7 @@ public class NoteServlet extends HttpServlet {
         }
 
         getServletContext().getRequestDispatcher("/WEB-INF/notes.jsp").forward(request, response);
+        return;
     }
 
 }

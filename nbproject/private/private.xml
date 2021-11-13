@@ -2,6 +2,14 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/D:/SAIT/Project/git/cprg352/lab/Lab10/web/META-INF/context.xml</file>
+            <file>file:/D:/SAIT/Project/git/cprg352/lab/Lab10/web/WEB-INF/admin.jsp</file>
+            <file>file:/D:/SAIT/Project/git/cprg352/lab/Lab10/src/java/models/User.java</file>
+            <file>file:/D:/SAIT/Project/git/cprg352/lab/Lab10/src/java/servlets/AdminServlet.java</file>
+            <file>file:/D:/SAIT/Project/git/cprg352/lab/Lab10/src/java/filters/AdminFilter.java</file>
+            <file>file:/D:/SAIT/Project/git/cprg352/lab/Lab10/web/WEB-INF/web.xml</file>
+            <file>file:/D:/SAIT/Project/git/cprg352/lab/Lab10/src/java/filters/AuthenticationFilter.java</file>
+        </group>
     </open-files>
 </project-private>

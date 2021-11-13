@@ -18,6 +18,7 @@ public class LoginServlet extends HttpServlet {
         session.invalidate(); // just by going to the login page the user is logged out :-) 
         
         getServletContext().getRequestDispatcher("/WEB-INF/login.jsp").forward(request, response);
+        return;
     }
 
     @Override
@@ -36,11 +37,14 @@ public class LoginServlet extends HttpServlet {
         
         HttpSession session = request.getSession();
         session.setAttribute("email", email);
+        session.setAttribute("user", user);
         
         if (user.getRole().getRoleId() == 1) {
             response.sendRedirect("admin");
+            return;
         } else {
             response.sendRedirect("notes");
+            return;
         }
     }
 }
